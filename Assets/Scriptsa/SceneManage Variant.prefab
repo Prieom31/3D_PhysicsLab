@@ -1,0 +1,102 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &6567789911212971436
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 4796420155698362392, guid: be1f7b78e8ea75c49a4633201d4e8c55, type: 3}
+      propertyPath: m_Name
+      value: SceneManage Variant
+      objectReference: {fileID: 0}
+    - target: {fileID: 4796420155698362398, guid: be1f7b78e8ea75c49a4633201d4e8c55, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4796420155698362398, guid: be1f7b78e8ea75c49a4633201d4e8c55, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 695.2716
+      objectReference: {fileID: 0}
+    - target: {fileID: 4796420155698362398, guid: be1f7b78e8ea75c49a4633201d4e8c55, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 360.7402
+      objectReference: {fileID: 0}
+    - target: {fileID: 4796420155698362398, guid: be1f7b78e8ea75c49a4633201d4e8c55, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.4404219
+      objectReference: {fileID: 0}
+    - target: {fileID: 4796420155698362398, guid: be1f7b78e8ea75c49a4633201d4e8c55, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4796420155698362398, guid: be1f7b78e8ea75c49a4633201d4e8c55, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4796420155698362398, guid: be1f7b78e8ea75c49a4633201d4e8c55, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4796420155698362398, guid: be1f7b78e8ea75c49a4633201d4e8c55, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4796420155698362398, guid: be1f7b78e8ea75c49a4633201d4e8c55, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4796420155698362398, guid: be1f7b78e8ea75c49a4633201d4e8c55, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4796420155698362398, guid: be1f7b78e8ea75c49a4633201d4e8c55, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4796420155698362399, guid: be1f7b78e8ea75c49a4633201d4e8c55, type: 3}
+      propertyPath: Lock
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 4796420155698362399, guid: be1f7b78e8ea75c49a4633201d4e8c55, type: 3}
+      propertyPath: UnLock
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 4796420155698362399, guid: be1f7b78e8ea75c49a4633201d4e8c55, type: 3}
+      propertyPath: scriptA
+      value: 
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: be1f7b78e8ea75c49a4633201d4e8c55, type: 3}
+--- !u!1 &1852444651266698676 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4796420155698362392, guid: be1f7b78e8ea75c49a4633201d4e8c55, type: 3}
+  m_PrefabInstance: {fileID: 6567789911212971436}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1716826217
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1852444651266698676}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e6a19f8e1369c344bb81b12b4976181d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  scriptA: {fileID: 0}
+--- !u!114 &1716826218
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1852444651266698676}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 50ba3f45a2ed4c743b210dc5f11625c5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  objectWithCollider: {fileID: 0}
